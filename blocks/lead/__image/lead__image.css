@@ -1,9 +1,9 @@
 .lead__image {
     background-image: url(../../../images/lead-polka.svg);
     max-width: 984px;
-    padding-bottom: 62.5%;
     background-size: contain;
     background-repeat: no-repeat;
+    padding-bottom: 62.5%;
     position: relative;
 }
 
