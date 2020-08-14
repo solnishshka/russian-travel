@@ -12,12 +12,14 @@
         flex-direction: column;
         width: 57%;
         margin-left: 16px;
+        margin-top: 64px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .footer {
         max-width: 93.75%;
+        margin-top: 88px;
     }
 }
 

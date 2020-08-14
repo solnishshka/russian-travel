@@ -9,11 +9,21 @@
     margin-bottom: 80px;
 }
 
-@media screen and (max-width: 768px) {
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
     .place {
         grid-auto-flow: column;
         grid-template-columns: 100%;
         grid-template-rows: repeat(3, auto);
         margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+    .place {
+        margin-bottom: 72px;
     }
 }
