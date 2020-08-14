@@ -1,7 +1,5 @@
 .header__lang-link {
     color: white;
-}
-
-.header__lang-link:last-of-type {
+    margin-right: 18px;
     text-decoration: none;
 }
