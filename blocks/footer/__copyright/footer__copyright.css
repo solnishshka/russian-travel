@@ -1,6 +1,6 @@
 .footer__copyright {
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.14;
     font-weight: normal;
     font-style: normal;
     margin: 0;
@@ -10,5 +10,6 @@
 @media screen and (max-width: 768px) {
     .footer__copyright {
         align-self: flex-start;
+        line-height: 1;
     }
 }

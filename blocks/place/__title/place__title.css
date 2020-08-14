@@ -2,14 +2,14 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 1.05;
     margin: 0;
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
         font-size: 32px;
-        line-height: 35px;
+        line-height: 1.09;
         width: 90%;
         margin: 0 auto;
         text-align: left;
@@ -19,7 +19,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .place__title {
         font-size: 42px;
-        line-height: 46px;  
+        line-height: 1.09;  
     }
 }
 

@@ -2,24 +2,16 @@
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 1.2;
     max-width: 640px;
     margin: 0 auto 64px auto;
     text-align: center;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .lead__subtitle {
-        max-width: 288px;
+        width: 90%;
         font-size: 16px;
-        line-height: 20px;
-    }   
-}
-
-@media (max-width: 425px) {
-    .lead__subtitle {
-        max-width: 288px;
-        font-size: 16px;
-        line-height: 20px;
+        line-height: 1.25;
     }   
 }
