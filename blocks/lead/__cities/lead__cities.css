@@ -1,0 +1,7 @@
+.lead__cities {
+    position: absolute;
+    margin: 0 auto;
+    top: 14.66%;
+    left: calc(5%/2);
+    width: 95%;
+}

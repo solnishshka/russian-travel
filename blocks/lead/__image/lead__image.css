@@ -1,9 +1,10 @@
 .lead__image {
-    background-image: url(../../../images/kalegin-michail-179870-unsplash.svg);
+    background-image: url(../../../images/lead-polka.svg);
     max-width: 984px;
     padding-bottom: 62.5%;
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 @media screen and (max-width: 1024px) {
