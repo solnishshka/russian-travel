@@ -1,10 +1,22 @@
 .places {
     margin: 92px auto;
-    max-width: 984px;
-    width: 90%;
+    width: 76.87%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        width: 90.62%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        margin: 88px auto;
+        width: 93.75%
+    }
 }
 
 @media (max-width: 425px) {

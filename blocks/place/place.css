@@ -1,8 +1,9 @@
 .place {
+    width: 100%;
     display: grid;
     column-gap: 40px;
     row-gap: 48px;
-    grid-template-columns: 47% auto;
+    grid-template-columns: min-content auto;
     grid-template-rows: auto auto;
     margin: 0 auto;
     grid-auto-flow: row;
@@ -13,17 +14,26 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1279px) {
     .place {
-        grid-auto-flow: column;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(3, auto);
-        margin-bottom: 48px;
+        grid-template-columns: min-content auto;
+        column-gap: 32px;
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .place {
         margin-bottom: 72px;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        grid-auto-flow: column;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, min-content);
+        margin-bottom: 48px;
+        row-gap: 32px;
     }
 }
